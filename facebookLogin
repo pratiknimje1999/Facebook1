@@ -13,7 +13,7 @@ public class SubmitAction {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.name("login")).submit();
-
+		driver.back();
 	}
 
 }
